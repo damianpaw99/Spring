@@ -10,7 +10,7 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     private String name;
 
@@ -27,7 +27,7 @@ public class Product {
         this.available = available;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
