@@ -1,0 +1,95 @@
+GET http://localhost:8081/api/product/all
+
+GET http://localhost:8081/api/product?id=1
+
+POST http://localhost:8081/api/admin/product
+{
+    "name": "Blacha",
+    "price": 3.40,
+    "available": false
+}
+
+PUT http://localhost:8081/api/admin/product
+{
+    "id": 33,
+    "name": "Stalowa belka",
+    "price": 5.20,
+    "available": true
+}
+
+PATCH http://localhost:8081/api/admin/product/1
+{
+    "name": "Deska"
+}
+
+
+
+GET http://localhost:8081/api/order/all
+
+GET http://localhost:8081/api/order?id=1
+
+POST http://localhost:8081/api/admin/order
+{
+        "customer": {
+            "id": 1
+        },
+        "products": [
+            {
+                "id": 1
+            },
+            {
+                "id": 33
+
+            }
+        ],
+        "placeDate": "2021-05-30T22:22:24.527302",
+        "status": "finished"
+}
+
+PUT http://localhost:8081/api/admin/order
+{
+        "id": 34,
+        "customer": {
+            "id": 1
+        },
+        "products": [
+            {
+                "id": 2
+            },
+            {
+                "id": 33
+
+            }
+        ],
+        "placeDate": "2020-01-30T22:23:24.527302",
+        "status": "finished"
+}
+
+PATCH http://localhost:8081/api/admin/order/34
+    {
+        "status":"in progress"
+    }
+
+
+GET http://localhost:8081/api/customer/all
+
+GET http://localhost:8081/api/customer?id=1
+
+POST http://localhost:8081/api/admin/customer
+    {
+        "name": "Adrian Nowakowski",
+        "address": "Świdnica"
+    }
+
+PUT http://localhost:8081/api/admin/customer
+    {
+        "id": 34,
+        "name": "Marcela Nowak",
+        "address": "Warszawa"
+    }
+
+PATCH http://localhost:8081/api/admin/customer/34
+    {
+        "address": "Jelenia Góra"
+    }
+
