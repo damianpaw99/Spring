@@ -27,7 +27,7 @@ public class DbMockData {
 
     @EventListener(ApplicationReadyEvent.class)
     public void fill() {
-
+        /*
         Product product = new Product("Korek", 2.55f, true);
         Product product1 = new Product("Rura", 5f, true);
         Customer customer = new Customer("Jak Kowalski", "Wrocław");
@@ -42,6 +42,8 @@ public class DbMockData {
         productRepository.save(product1);
         customerRepository.save(customer);
         orderRepository.save(order);
+
+         */
 
     }
 }
