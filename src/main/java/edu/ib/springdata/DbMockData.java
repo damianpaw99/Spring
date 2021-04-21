@@ -1,5 +1,8 @@
 package edu.ib.springdata;
 
+import edu.ib.springdata.repository.CustomerRepository;
+import edu.ib.springdata.repository.OrderRepository;
+import edu.ib.springdata.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
@@ -24,6 +27,7 @@ public class DbMockData {
 
     @EventListener(ApplicationReadyEvent.class)
     public void fill() {
+        /*
         Product product = new Product("Korek", 2.55f, true);
         Product product1 = new Product("Rura", 5f, true);
         Customer customer = new Customer("Jak Kowalski", "Wrocław");
@@ -38,5 +42,8 @@ public class DbMockData {
         productRepository.save(product1);
         customerRepository.save(customer);
         orderRepository.save(order);
+
+         */
+
     }
 }
