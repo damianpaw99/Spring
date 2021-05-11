@@ -1,4 +1,4 @@
-package edu.ib.springdata;
+package edu.ib.springdata.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
