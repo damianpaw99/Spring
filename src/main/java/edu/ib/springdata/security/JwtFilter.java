@@ -28,6 +28,8 @@ public class JwtFilter extends BasicAuthenticationFilter {
         if(header!=null && header.startsWith("Bearer ")) {
             UsernamePasswordAuthenticationToken authResult = getAuthorizationToken(header);
             SecurityContextHolder.getContext().setAuthentication(authResult);
+        } else {
+            SecurityContextHolder.getContext().getAuthentication().setAuthenticated(false);
         }
         chain.doFilter(request,response);
     }
