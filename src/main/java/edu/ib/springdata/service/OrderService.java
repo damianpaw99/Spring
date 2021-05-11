@@ -1,6 +1,6 @@
 package edu.ib.springdata.service;
 
-import edu.ib.springdata.Order;
+import edu.ib.springdata.objects.Order;
 import edu.ib.springdata.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

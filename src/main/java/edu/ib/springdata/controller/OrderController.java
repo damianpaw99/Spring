@@ -1,6 +1,6 @@
 package edu.ib.springdata.controller;
 
-import edu.ib.springdata.Order;
+import edu.ib.springdata.objects.Order;
 import edu.ib.springdata.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ReflectionUtils;

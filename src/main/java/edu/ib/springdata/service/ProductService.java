@@ -1,6 +1,6 @@
 package edu.ib.springdata.service;
 
-import edu.ib.springdata.Product;
+import edu.ib.springdata.objects.Product;
 import edu.ib.springdata.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

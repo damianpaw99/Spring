@@ -1,4 +1,4 @@
-package edu.ib.springdata.user;
+package edu.ib.springdata.objects.user;
 
 public class User {
     private String name;

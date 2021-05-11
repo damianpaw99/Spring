@@ -1,6 +1,6 @@
 package edu.ib.springdata.controller;
 
-import edu.ib.springdata.Customer;
+import edu.ib.springdata.objects.Customer;
 import edu.ib.springdata.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ReflectionUtils;
