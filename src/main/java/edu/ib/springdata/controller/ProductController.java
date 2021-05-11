@@ -1,6 +1,6 @@
 package edu.ib.springdata.controller;
 
-import edu.ib.springdata.Product;
+import edu.ib.springdata.objects.Product;
 import edu.ib.springdata.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ReflectionUtils;

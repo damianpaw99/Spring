@@ -1,4 +1,4 @@
-package edu.ib.springdata;
+package edu.ib.springdata.objects.user;
 
 
 import javax.persistence.Entity;

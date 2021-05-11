@@ -1,6 +1,6 @@
 package edu.ib.springdata.repository;
 
-import edu.ib.springdata.Customer;
+import edu.ib.springdata.objects.Customer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

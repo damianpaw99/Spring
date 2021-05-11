@@ -1,10 +1,7 @@
-package edu.ib.springdata.user;
+package edu.ib.springdata.objects.user;
 
 
-import edu.ib.springdata.PasswordEncoderConfig;
-import edu.ib.springdata.UserDto;
-import edu.ib.springdata.user.User;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import edu.ib.springdata.security.PasswordEncoderConfig;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 public class UserDtoBuilder {

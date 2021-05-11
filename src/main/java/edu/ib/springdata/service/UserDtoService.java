@@ -1,7 +1,7 @@
 package edu.ib.springdata.service;
 
-import edu.ib.springdata.PasswordEncoderConfig;
-import edu.ib.springdata.UserDto;
+import edu.ib.springdata.security.PasswordEncoderConfig;
+import edu.ib.springdata.objects.user.UserDto;
 import edu.ib.springdata.repository.UserDtoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

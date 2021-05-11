@@ -1,11 +1,15 @@
 package edu.ib.springdata;
 
+import edu.ib.springdata.objects.Customer;
+import edu.ib.springdata.objects.Order;
+import edu.ib.springdata.objects.Product;
 import edu.ib.springdata.repository.CustomerRepository;
 import edu.ib.springdata.repository.OrderRepository;
 import edu.ib.springdata.repository.ProductRepository;
 import edu.ib.springdata.repository.UserDtoRepository;
-import edu.ib.springdata.user.User;
-import edu.ib.springdata.user.UserDtoBuilder;
+import edu.ib.springdata.objects.user.User;
+import edu.ib.springdata.objects.user.UserDto;
+import edu.ib.springdata.objects.user.UserDtoBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
