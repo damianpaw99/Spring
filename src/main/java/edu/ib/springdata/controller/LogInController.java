@@ -36,7 +36,7 @@ public class LogInController {
                 .claim("roles",user.getRole())
                 .setIssuedAt(new Date(millis))
                 .setExpiration(new Date(millis+10*60*1000))
-                .signWith(SignatureAlgorithm.HS512,user.getPassword())
+                .signWith(SignatureAlgorithm.HS512,"z3gHeX23")
                 .compact();
     }
 }
