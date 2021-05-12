@@ -70,7 +70,7 @@ public class DbMockData {
 
         Iterable<UserDto> list=userDtoRepository.findAll();
         if(!list.iterator().hasNext()) {
-            User user1 = new User("adamnnowak", "pass", "ROLE_CUSTOMER");
+            User user1 = new User("adamnowak", "pass", "ROLE_CUSTOMER");
             User user2 = new User("krzysztofkowalski", "pass123", "ROLE_ADMIN");
             UserDtoBuilder builder = new UserDtoBuilder();
             UserDto userDto1 = builder.build(user1);
