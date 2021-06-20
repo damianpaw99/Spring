@@ -47,7 +47,7 @@ public class DbMockData {
         }
         Iterable<Customer> customerIterable=customerRepository.findAll();
         if(!customerIterable.iterator().hasNext()){
-            Customer customer = new Customer("Jak Kowalski", "Wrocław");
+            Customer customer = new Customer("Jak Kowalski", "Wroclaw");
             customerRepository.save(customer);
         }
 
@@ -57,7 +57,7 @@ public class DbMockData {
             Product product1 = new Product("Cement", 15f, true);
             productRepository.save(product);
             productRepository.save(product1);
-            Customer customer = new Customer("Stefan Kowal", "Wałbrzych");
+            Customer customer = new Customer("Stefan Kowal", "Walbrzych");
             customerRepository.save(customer);
             Set<Product> products = new HashSet<>() {
                 {
