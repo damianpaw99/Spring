@@ -1,6 +1,6 @@
 export AZ_RESOURCE_GROUP=tmp-spring-jpa-mysql
 export AZ_DATABASE_NAME=cloud-tmp-spring-jpa-mysql
-export AZ_LOCATION=eastus
+export AZ_LOCATION=westeurope
 export AZ_MYSQL_USERNAME=spring
 export AZ_MYSQL_PASSWORD=azG8!bdaTH
 export AZ_LOCAL_IP_ADDRESS=$(curl http://whatismyip.akamai.com/)
